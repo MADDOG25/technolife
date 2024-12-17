@@ -13,7 +13,7 @@ export default function Home() {
             </div>
           </div>
           <div className="text-center">
-            <h1 className="text-balance text-5xl font-semibold tracking-tight text-white sm:text-7xl">
+            <h1 className="text-balance text-4xl font-semibold tracking-tight text-white md:text-7xl">
               Reparacion y Mantenimiento de Celulares
             </h1>
             <p className="mt-8 text-pretty text-lg font-medium text-white">

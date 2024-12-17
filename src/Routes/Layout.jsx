@@ -7,7 +7,7 @@ export default function Layout() {
   return (
     <BrowserRouter>
       <Header />
-      <main className="bg-blue h-full">
+      <main className="bg-blue h-full font-sans">
         <Routes>
           <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path="/inicio" element={<Home />} />

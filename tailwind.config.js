@@ -4,9 +4,12 @@ export default {
   theme: {
     extend: {},
     colors: {
-      'blue': "#000087",
-      'pink': "#CD0C6D",
-      'white': "#FFFFFF",
+      blue: "#000087",
+      pink: "#CD0C6D",
+      white: "#FFFFFF",
+    },
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"],
     },
   },
   plugins: [],
