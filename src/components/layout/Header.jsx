@@ -4,10 +4,9 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { NavLink } from "react-router-dom";
 
 const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Marketplace", href: "#" },
-  { name: "Company", href: "#" },
+  { name: "Servicios", href: "/servicios" },
+  { name: "Testimonios", href: "testimonios" },
+  { name: "Contacto", href: "contacto" },
 ];
 
 export default function Header() {
@@ -18,12 +17,12 @@ export default function Header() {
       <header className="bg-blue absolute inset-x-0 top-0 z-50">
         <nav
           aria-label="Global"
-          className="flex items-center justify-between p-6 lg:px-8"
+          className="flex items-center justify-between py-8 px-8"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1 -p-1">
+            <a href="/inicio" className="-m-1 -p-1">
               <div className="flex items-center grid-cols-1">
-              <img alt="" src="/logo.svg" className="h-10 w-auto" />
+              <img alt="logo de technolife" src="/logo.svg" className="h-10 w-auto" />
               <p className="text-xl font-semibold text-white">
                 TechnoLife
               </p>
@@ -66,12 +65,12 @@ export default function Header() {
           className="lg:hidden"
         >
           <div className="fixed inset-0 z-50" />
-          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-blue px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-white">
+          <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-blue px-6 py-8 sm:max-w-sm sm:ring-1 sm:ring-white">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/inicio" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <div className="flex items-center grid-cols-1">
-              <img alt="" src="/logo.svg" className="h-10 w-auto" />
+              <img alt="logo technolife" src="/logo.svg" className="h-10 w-auto" />
               <p className="text-xl font-semibold text-white">
                 TechnoLife
               </p>

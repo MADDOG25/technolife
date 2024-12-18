@@ -3,6 +3,7 @@ import Home from "../pages/Home";
 import Error from "../pages/Error";
 import Header from "../components/layout/Header";
 import Footer from "../components/layout/Footer";
+import Services from "../pages/Services";
 export default function Layout() {
   return (
     <BrowserRouter>
@@ -11,6 +12,7 @@ export default function Layout() {
         <Routes>
           <Route path="/" element={<Navigate to="/inicio" />} />
           <Route path="/inicio" element={<Home />} />
+          <Route path="/servicios" element={<Services />} />
           <Route path="*" element={<Error />} />
         </Routes>
       </main>
