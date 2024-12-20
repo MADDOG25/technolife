@@ -6,7 +6,7 @@ export default function Home() {
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-base text-white ring-1 ring-white hover:ring-white">
               Problemas con tu celular aqui puedes solucionarlo.{" "}
-              <a href="#" className="font-semibold text-white">
+              <a href="/servicios" className="font-semibold text-white">
                 <span aria-hidden="true" className="absolute inset-0" />
                 Leer mas <span aria-hidden="true">&rarr;</span>
               </a>
@@ -22,12 +22,12 @@ export default function Home() {
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="#"
+                href="/contacto"
                 className="rounded-xl bg-pink px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
                 Contactanos 
               </a>
-              <a href="#" className="text-sm font-semibold text-white">
+              <a href="/servicios" className="text-sm font-semibold text-white">
                 Leer mas <span aria-hidden="true">→</span>
               </a>
             </div>
