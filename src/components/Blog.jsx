@@ -1,13 +1,13 @@
 const posts = [
   {
     id: 1,
-    title: "Boost your conversion rate",
-    href: "#",
+    title: "Cómo reparar la pantalla rota de tu celular paso a paso.",
+    href: "#", //Mejorar
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Reparación de Celulares", href: "#" }, //Mejorar links
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -18,13 +18,14 @@ const posts = [
   },
   {
     id: 2,
-    title: "Boost your conversion rate",
+    title:
+      "5 consejos para extender la vida útil de la batería de tu smartphone.",
     href: "#",
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Cuidado de Smartphones", href: "#" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -35,13 +36,13 @@ const posts = [
   },
   {
     id: 3,
-    title: "Boost your conversion rate",
+    title: "Errores comunes en el mantenimiento de celulares y cómo evitarlos.",
     href: "#",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
+      "Descubre las mejores prácticas para mantener tu celular como nuevo, desde el cambio de batería hasta la limpieza de puertos.",
     date: "Mar 16, 2020",
     datetime: "2020-03-16",
-    category: { title: "Marketing", href: "#" },
+    category: { title: "Mantenimiento Preventivo", href: "#" },
     author: {
       name: "Michael Foster",
       role: "Co-Founder / CTO",
@@ -58,10 +59,11 @@ export default function Blog() {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-            From the blog
+            Consejos y Noticias sobre Reparación y Cuidado de Celulares
           </h2>
           <p className="mt-2 text-lg text-pink">
-            Learn how to grow your business with our expert advice.
+            Aprende cómo mantener tu celular en perfecto estado, solucionar
+            problemas comunes y explorar nuestras guías de reparación.
           </p>
         </div>
         <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-white pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
@@ -83,7 +85,10 @@ export default function Blog() {
               </div>
               <div className="group relative">
                 <h3 className="mt-3 text-lg font-semibold text-white group-hover:text-pink">
-                  <a href={post.href}>
+                  <a
+                    href={post.href}
+                    aria-label={`Leer más sobre: ${post.title}`}
+                  >
                     <span className="absolute inset-0" />
                     {post.title}
                   </a>
@@ -94,11 +99,12 @@ export default function Blog() {
               </div>
               <div className="relative mt-8 flex items-center gap-x-4">
                 <img
-                  alt=""
+                  alt={`Foto de ${post.author.name}, autor del artículo: ${post.title}`}
                   src={post.author.imageUrl}
                   className="size-10 rounded-full bg-white"
+                  loading="lazy"
                 />
-                <div className="text-sm/6">
+                <div className="text-sm/6 gap-y-2 grid">
                   <p className="font-semibold text-white">
                     <a href={post.author.href}>
                       <span className="absolute inset-0" />
@@ -106,6 +112,12 @@ export default function Blog() {
                     </a>
                   </p>
                   <p className="text-white">{post.author.role}</p>
+                  <a
+                    href="/servicios"
+                    className="text-sm font-semibold text-pink"
+                  >
+                    Ver servicios de reparación →
+                  </a>
                 </div>
               </div>
             </article>

@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import CallToAction from "../components/CallToAction";
 
 export default function Services() {
   return (
@@ -43,36 +44,30 @@ export default function Services() {
           <div className="lg:pr-4">
             <div className="lg:max-w-lg">
               <p className="text-base font-semibold text-white">
-                Deploy faster
+                Servicios especializados
               </p>
-              <h1 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-pink sm:text-5xl">
-                A better workflow
-              </h1>
+              <h2 className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-pink sm:text-5xl">
+                Soluciones para reparación y mantenimiento de celulares
+              </h2>
               <p className="mt-6 text-xl text-white">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                id at vitae feugiat egestas.
+                Ofrecemos servicios de reparación de celulares, mantenimiento preventivo y asesoría para prolongar la vida útil de tus dispositivos móviles.
               </p>
             </div>
           </div>
         </div>
         <div className="-ml-12 lg:mt-10 p-12  lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
-            alt=""
+            alt="Imagen de reparación y mantenimiento de celulares"
             src="/src/assets/imagen-1.jpeg"
             className="w-full rounded-xl bg-white shadow-xl ring-1 ring-white"
+            loading="lazy"
           />
         </div>
         <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
           <div className="lg:pr-4">
             <div className="max-w-xl text-base text-white lg:max-w-lg">
               <p>
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+                Nuestros servicios incluyen la reparación de pantallas rotas, reemplazo de baterías, optimización del rendimiento y limpieza de puertos USB para garantizar el correcto funcionamiento de tu dispositivo.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
@@ -82,11 +77,9 @@ export default function Services() {
                   />
                   <span>
                     <strong className="font-semibold text-white">
-                      Push to deploy.
+                      Diagnóstico rápido.
                     </strong>{" "}
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                    Maiores impedit perferendis suscipit eaque, iste dolor
-                    cupiditate blanditiis ratione.
+                    Identificamos y solucionamos problemas en tu celular en el menor tiempo posible.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -96,10 +89,9 @@ export default function Services() {
                   />
                   <span>
                     <strong className="font-semibold text-white">
-                      SSL certificates.
+                      Protección y seguridad.
                     </strong>{" "}
-                    Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                    qui lorem cupidatat commodo.
+                    Instalamos certificados SSL y garantizamos la privacidad de tus datos durante el proceso de reparación.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -109,35 +101,26 @@ export default function Services() {
                   />
                   <span>
                     <strong className="font-semibold text-white">
-                      Database backups.
+                      Respaldo de datos.
                     </strong>{" "}
-                    Ac tincidunt sapien vehicula erat auctor pellentesque
-                    rhoncus. Et magna sit morbi lobortis.
+                    Realizamos copias de seguridad para proteger tu información antes de cualquier intervención.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
+                Garantizamos servicios de calidad para que tus dispositivos estén siempre en perfectas condiciones. Confía en nosotros para el mantenimiento y cuidado de tu celular.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-pink">
-                No server? No problem.
+                Soluciones sin complicaciones.
               </h2>
               <p className="mt-6">
-                Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-                consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-                vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-                pellentesque id sed tellus mauris, ultrices mauris. Tincidunt
-                enim cursus ridiculus mi. Pellentesque nam sed nullam sed diam
-                turpis ipsum eu a sed convallis diam.
+                Ya sea que necesites una reparación rápida o un mantenimiento preventivo, nuestro equipo está aquí para ayudarte. Contáctanos y mantén tus dispositivos funcionando como nuevos.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <CallToAction />
     </div>
   );
 }

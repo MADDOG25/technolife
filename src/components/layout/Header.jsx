@@ -14,7 +14,7 @@ export default function Header() {
 
   return (
     <div>
-      <header className="bg-blue absolute inset-x-0 top-0 z-50">
+      <header className="bg-blue absolute inset-x-0 top-0 z-50 drop-shadow-2xl ">
         <nav
           aria-label="Global"
           className="flex items-center justify-between py-8 px-8"
