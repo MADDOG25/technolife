@@ -1,7 +1,6 @@
-import Blog from "../components/Blog";
-import CallToAction from "../components/CallToAction";
 import Feature from "../components/Feature";
 import Logo from "../components/Logo";
+import CallToAction from "../components/CallToAction";
 
 export default function Home() {
   return (
@@ -46,7 +45,6 @@ export default function Home() {
       </div>
       <Feature />
       <Logo />
-      <Blog />
       <CallToAction/>
     </div>
   );

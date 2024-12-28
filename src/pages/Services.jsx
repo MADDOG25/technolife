@@ -3,6 +3,7 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
+import Carousel from "../components/Carousel";
 
 export default function Services() {
   return (
@@ -49,7 +50,9 @@ export default function Services() {
                 Soluciones para reparación y mantenimiento de celulares
               </h2>
               <p className="mt-6 text-xl text-white">
-                Ofrecemos servicios de reparación de celulares, mantenimiento preventivo y asesoría para prolongar la vida útil de tus dispositivos móviles.
+                Ofrecemos servicios de reparación de celulares, mantenimiento
+                preventivo y asesoría para prolongar la vida útil de tus
+                dispositivos móviles.
               </p>
             </div>
           </div>
@@ -66,7 +69,10 @@ export default function Services() {
           <div className="lg:pr-4">
             <div className="max-w-xl text-base text-white lg:max-w-lg">
               <p>
-                Nuestros servicios incluyen la reparación de pantallas rotas, reemplazo de baterías, optimización del rendimiento y limpieza de puertos USB para garantizar el correcto funcionamiento de tu dispositivo.
+                Nuestros servicios incluyen la reparación de pantallas rotas,
+                reemplazo de baterías, optimización del rendimiento y limpieza
+                de puertos USB para garantizar el correcto funcionamiento de tu
+                dispositivo.
               </p>
               <ul role="list" className="mt-8 space-y-8 text-white">
                 <li className="flex gap-x-3">
@@ -78,7 +84,8 @@ export default function Services() {
                     <strong className="font-semibold text-white">
                       Diagnóstico rápido.
                     </strong>{" "}
-                    Identificamos y solucionamos problemas en tu celular en el menor tiempo posible.
+                    Identificamos y solucionamos problemas en tu celular en el
+                    menor tiempo posible.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -90,7 +97,8 @@ export default function Services() {
                     <strong className="font-semibold text-white">
                       Protección y seguridad.
                     </strong>{" "}
-                    Instalamos certificados SSL y garantizamos la privacidad de tus datos durante el proceso de reparación.
+                    Instalamos certificados SSL y garantizamos la privacidad de
+                    tus datos durante el proceso de reparación.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
@@ -102,24 +110,30 @@ export default function Services() {
                     <strong className="font-semibold text-white">
                       Respaldo de datos.
                     </strong>{" "}
-                    Realizamos copias de seguridad para proteger tu información antes de cualquier intervención.
+                    Realizamos copias de seguridad para proteger tu información
+                    antes de cualquier intervención.
                   </span>
                 </li>
               </ul>
               <p className="mt-8">
-                Garantizamos servicios de calidad para que tus dispositivos estén siempre en perfectas condiciones. Confía en nosotros para el mantenimiento y cuidado de tu celular.
+                Garantizamos servicios de calidad para que tus dispositivos
+                estén siempre en perfectas condiciones. Confía en nosotros para
+                el mantenimiento y cuidado de tu celular.
               </p>
               <h2 className="mt-16 text-2xl font-bold tracking-tight text-pink">
                 Soluciones sin complicaciones.
               </h2>
               <p className="mt-6">
-                Ya sea que necesites una reparación rápida o un mantenimiento preventivo, nuestro equipo está aquí para ayudarte. Contáctanos y mantén tus dispositivos funcionando como nuevos.
+                Ya sea que necesites una reparación rápida o un mantenimiento
+                preventivo, nuestro equipo está aquí para ayudarte. Contáctanos
+                y mantén tus dispositivos funcionando como nuevos.
               </p>
             </div>
           </div>
         </div>
       </div>
       {/* Carrusel component */}
+      <Carousel />
     </div>
   );
 }
