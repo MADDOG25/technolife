@@ -1,7 +1,7 @@
 export default function CallToAction() {
     return (
       <div className="bg-blue">
-        <div className="container mx-auto max-w-7xl py-20 sm:px-6 lg:px-8">
+        <div className="container mx-auto max-w-7xl pt-10 pb-40 sm:px-6 lg:px-8">
           <div className="relative isolate overflow-hidden bg-blue grid grid-cols-1 lg:grid-cols-2 px-6 pt-16 lg:pb-0 md:pb-20 pb-20 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             {/* Fondo radial decorativo */}
             <svg
@@ -36,23 +36,25 @@ export default function CallToAction() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
                 <a
-                  href="#"
+                  href="/contacto"
                   className="rounded-md bg-pink px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-white hover:text-pink focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
                 >
                   Agenda tu cita
                 </a>
-                <a href="/contacto" className="text-sm font-semibold text-white">
+                <a href="/servicios" className="text-sm font-semibold text-white">
                   Más información <span aria-hidden="true">→</span>
                 </a>
               </div>
             </div>
   
             {/* Imagen de reparación */}
-            <div className="mt-12 h-full flex justify-center items-center">
+            <div className="mt-10 mb-10 h-full flex justify-center items-center">
               <img
                 alt="Técnico reparando un celular en un taller especializado"
-                src="/src/assets/imagen-1.jpeg"
-                className="w-auto max-h-full rounded-md bg-white ring-1 ring-white object-contain"
+                src="/src/assets/imagen-cta.jpg"
+                width={500}
+                height={500}
+                className="w-96 max-h-full rounded-md bg-white ring-1 ring-white object-contain"
               />
             </div>
           </div>

@@ -44,7 +44,7 @@ export default function Feature() {
     <div className="bg-blue py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:text-center">
-          <h2 className="text-base font-semibold text-pink">
+          <h2 className="text-lg font-semibold text-pink">
             ¿Por qué elegirnos?
           </h2>
           <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl lg:text-balance">
@@ -61,8 +61,8 @@ export default function Feature() {
           <dl className="grid max-w-xl grid-cols-1 gap-x-8 gap-y-10 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
             {features.map((feature) => (
               <div key={feature.name} className="relative pl-16">
-                <dt className="text-base font-semibold text-pink">
-                  <div className="absolute left-0 top-0 flex size-10 items-center justify-center rounded-lg bg-white">
+                <dt className="text-lg font-semibold text-pink">
+                  <div className="absolute left-0 top-0 flex size-8 items-center justify-center rounded-lg bg-white">
                     <feature.icon
                       aria-hidden="true"
                       className="size-6 text-pink"

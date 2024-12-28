@@ -3,7 +3,6 @@ import {
   LockClosedIcon,
   ServerIcon,
 } from "@heroicons/react/20/solid";
-import CallToAction from "../components/CallToAction";
 
 export default function Services() {
   return (
@@ -120,7 +119,7 @@ export default function Services() {
           </div>
         </div>
       </div>
-      <CallToAction />
+      {/* Carrusel component */}
     </div>
   );
 }

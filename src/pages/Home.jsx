@@ -1,4 +1,5 @@
 import Blog from "../components/Blog";
+import CallToAction from "../components/CallToAction";
 import Feature from "../components/Feature";
 import Logo from "../components/Logo";
 
@@ -18,7 +19,7 @@ export default function Home() {
               </div>
             </div>
             <div className="text-center">
-              <h1 className="text-balance text-4xl font-semibold tracking-tight text-white md:text-7xl">
+              <h1 className="text-4xl md:text-7xl font-semibold text-white">
                 Reparacion y Mantenimiento de Celulares
               </h1>
               <p className="mt-8 text-pretty text-lg font-medium text-white">
@@ -46,6 +47,7 @@ export default function Home() {
       <Feature />
       <Logo />
       <Blog />
+      <CallToAction/>
     </div>
   );
 }

@@ -55,13 +55,13 @@ const posts = [
 
 export default function Blog() {
   return (
-    <div className="bg-blue py-44">
+    <div className="bg-blue py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:mx-0">
           <h2 className="text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
             Consejos y Noticias sobre Reparación y Cuidado de Celulares
           </h2>
-          <p className="mt-2 text-lg text-pink">
+          <p className="mt-2 text-xl text-pink">
             Aprende cómo mantener tu celular en perfecto estado, solucionar
             problemas comunes y explorar nuestras guías de reparación.
           </p>
