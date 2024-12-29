@@ -2,63 +2,69 @@ const posts = [
   {
     id: 1,
     title: "Cómo reparar la pantalla rota de tu celular paso a paso.",
-    href: "#", //Mejorar
+    href: "https://www.xataka.com/basics/se-me-ha-roto-pantalla-movil",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "Reparación de Celulares", href: "#" }, //Mejorar links
+      "Aprende las herramientas necesarias, los pasos para desmontar tu dispositivo y cómo reemplazar correctamente la pantalla rota de tu celular.",
+    date: "Dec 20, 2024",
+    datetime: "2024-12-20",
+    category: {
+      title: "Reparación de Celulares",
+      href: "https://www.xataka.com/basics/se-me-ha-roto-pantalla-movil",
+    },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Carlos Martínez",
+      role: "Técnico en Electrónica",
+      href: "/servicios",
+      imageUrl: "https://via.placeholder.com/150/000000/FFFFFF/?text=Carlos",
     },
   },
   {
     id: 2,
     title:
       "5 consejos para extender la vida útil de la batería de tu smartphone.",
-    href: "#",
+    href: "https://www.xataka.com/basics/como-cargar-telefono-movil-para-maximizar-vida-util-bateria",
     description:
-      "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "Cuidado de Smartphones", href: "#" },
+      "Descubre cómo cuidar la batería de tu celular con buenas prácticas como evitar el sobrecalentamiento, usar cargadores certificados y mucho más.",
+    date: "Dec 15, 2024",
+    datetime: "2024-12-15",
+    category: {
+      title: "Cuidado de Smartphones",
+      href: "https://www.xataka.com/basics/como-cargar-telefono-movil-para-maximizar-vida-util-bateria",
+    },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "Laura Gómez",
+      role: "Especialista en Reparación",
+      href: "/servicios",
+      imageUrl: "https://via.placeholder.com/150/000000/FFFFFF/?text=Laura",
     },
   },
   {
     id: 3,
-    title: "Errores comunes en el mantenimiento de celulares y cómo evitarlos.",
-    href: "#",
+    title: "Errores comunes en el mantenimiento de celulares",
+    href: "https://www.simoptions.com/es/solucion-de-problemas-de-telefono-movil/",
     description:
-      "Descubre las mejores prácticas para mantener tu celular como nuevo, desde el cambio de batería hasta la limpieza de puertos.",
-    date: "Mar 16, 2020",
-    datetime: "2020-03-16",
-    category: { title: "Mantenimiento Preventivo", href: "#" },
+      "Desde la limpieza de puertos de carga hasta el uso de protectores adecuados, conoce los errores más frecuentes y cómo prevenirlos.",
+    date: "Dec 10, 2024",
+    datetime: "2024-12-10",
+    category: {
+      title: "Mantenimiento Preventivo",
+      href: "https://www.simoptions.com/es/solucion-de-problemas-de-telefono-movil/",
+    },
     author: {
-      name: "Michael Foster",
-      role: "Co-Founder / CTO",
-      href: "#",
-      imageUrl:
-        "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
+      name: "José Pérez",
+      role: "Ingeniero",
+      href: "/servicios",
+      imageUrl: "https://via.placeholder.com/150/000000/FFFFFF/?text=Jose",
     },
   },
 ];
 
 export default function Blog() {
   return (
-    <div className="bg-blue py-32">
-      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+    <div className="pt-44 pb-20">
+      <div className="mx-auto px-2">
         <div className="mx-auto max-w-2xl lg:mx-0">
-          <h2 className="text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
+          <h2 className="text-4xl font-semibold text-white sm:text-5xl">
             Consejos y Noticias sobre Reparación y Cuidado de Celulares
           </h2>
           <p className="mt-2 text-xl text-pink">
@@ -66,7 +72,7 @@ export default function Blog() {
             problemas comunes y explorar nuestras guías de reparación.
           </p>
         </div>
-        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-white pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-white pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-7xl lg:grid-cols-3">
           {posts.map((post) => (
             <article
               key={post.id}
@@ -79,6 +85,7 @@ export default function Blog() {
                 <a
                   href={post.category.href}
                   className="relative z-10 rounded-full bg-gray-50 px-3 py-1.5 font-medium text-white hover:bg-pink"
+                  target="_blank"
                 >
                   {post.category.title}
                 </a>
@@ -88,6 +95,7 @@ export default function Blog() {
                   <a
                     href={post.href}
                     aria-label={`Leer más sobre: ${post.title}`}
+                    target="_blank"
                   >
                     <span className="absolute inset-0" />
                     {post.title}
@@ -106,7 +114,7 @@ export default function Blog() {
                 />
                 <div className="text-sm/6 gap-y-2 grid">
                   <p className="font-semibold text-white">
-                    <a href={post.author.href}>
+                    <a href={post.author.href} target="_blank">
                       <span className="absolute inset-0" />
                       {post.author.name}
                     </a>
@@ -115,6 +123,7 @@ export default function Blog() {
                   <a
                     href="/servicios"
                     className="text-sm font-semibold text-pink"
+                    target="_blank"
                   >
                     Ver servicios de reparación →
                   </a>
