@@ -60,7 +60,7 @@ export default function Services() {
         <div className="-ml-12 lg:mt-10 p-12  lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
           <img
             alt="Imagen de reparación y mantenimiento de celulares"
-            src="/src/assets/imagen-1.jpeg"
+            src="/imagen-1.jpeg"
             className="w-full rounded-xl bg-white shadow-xl ring-1 ring-white"
             loading="lazy"
           />
