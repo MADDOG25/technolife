@@ -1,12 +1,10 @@
 import { useState } from "react";
-// import { ChevronDownIcon } from "@heroicons/react/solid";
 import { Switch } from "@headlessui/react";
 
 function Contact() {
   const [formData, setFormData] = useState({
     firstName: "",
     lastName: "",
-    company: "",
     email: "",
     phoneNumber: "",
     message: "",
@@ -32,7 +30,7 @@ function Contact() {
     Object.entries(formData).forEach(([key, value]) =>
       formToSend.append(key, value)
     );
-    formToSend.append("access_key", "YOUR_ACCESS_KEY_HERE");
+    formToSend.append("access_key", "b6a739ef-4a74-4b7f-b4e6-343257205976");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {

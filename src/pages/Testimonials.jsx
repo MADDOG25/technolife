@@ -4,28 +4,28 @@ const testimonials = [
   {
     quote:
       "El equipo hizo un trabajo excepcional reparando mi celular. Su atención al detalle y rapidez fueron impresionantes. Estoy muy agradecida por su servicio.",
-    name: "Judith Black",
+    name: "Jaquiline",
     image: "/src/assets/clientes/cliente1.jpeg",
     rating: 5,
   },
   {
     quote:
       "La pantalla de mi teléfono quedó como nueva. Además, el trato fue muy amable y profesional. Definitivamente los recomendaré a mis amigos.",
-    name: "Jaime Vespucio",
+    name: "Jaime",
     image: "/src/assets/clientes/cliente2.jpeg",
     rating: 4,
   },
   {
     quote:
       "Mi experiencia fue excelente. Fueron muy claros con el diagnóstico y el tiempo de entrega. No podría estar más feliz con el resultado.",
-    name: "Juan Vasquez",
+    name: "Roberto",
     image: "/src/assets/clientes/cliente3.jpeg",
     rating: 5,
   },
   {
     quote:
       "El lugar es muy profesional, y el servicio fue de primera calidad. Mis dispositivos funcionan perfectamente. ¡Muy recomendados!",
-    name: "Roberto Garcia",
+    name: "Andres",
     image: "/src/assets/clientes/cliente4.jpeg",
     rating: 4,
   },
