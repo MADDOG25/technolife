@@ -7,19 +7,19 @@ import { Navigation, Pagination } from "swiper/modules";
 export default function Carousel() {
   const slides = [
     {
-      image: "/src/assets/tech/tech2.jpeg",
+      image: "/tech/tech2.jpeg",
       alt: "Aréa de trabajo en reparación de celulares",
     },
     {
-      image: "/src/assets/tech/tech3.jpeg",
+      image: "/tech/tech3.jpeg",
       alt: "Revisión realizado en un dispositivo móvil",
     },
     {
-      image: "/src/assets/tech/tech5.jpeg",
+      image: "/tech/tech5.jpeg",
       alt: "Verificación de estado de equipo para mantenimiento",
     },
     {
-      image: "/src/assets/tech/tech4.jpeg",
+      image: "/tech/tech4.jpeg",
       alt: "Trabajo del estado de equipo para reparacion de placa",
     },
   ];

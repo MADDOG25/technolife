@@ -51,7 +51,7 @@ export default function CallToAction() {
             <div className="mt-10 mb-10 h-full flex justify-center items-center">
               <img
                 alt="Técnico reparando un celular en un taller especializado"
-                src="/src/assets/imagen-cta.jpg"
+                src="/imagen-cta.jpg"
                 width={500}
                 height={500}
                 className="w-96 max-h-full rounded-md bg-white ring-1 ring-white object-contain"

@@ -8,7 +8,7 @@ export default function Logo() {
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-1 items-center gap-x-8 gap-y-14 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
           <img
             alt="android logo"
-            src="/src/assets/logos/android-logo-op.png"
+            src="/logos/android-logo-op.png"
             loading="eager"
             width={158}
             height={48}
@@ -16,7 +16,7 @@ export default function Logo() {
           />
           <img
             alt="iphone logo"
-            src="/src/assets/logos/iphone-logo-op.png"
+            src="/logos/iphone-logo-op.png"
             loading="eager"
             width={158}
             height={48}
@@ -24,7 +24,7 @@ export default function Logo() {
           />
           <img
             alt="huawei logo"
-            src="/src/assets/logos/huawei-logo-op.webp"
+            src="/logos/huawei-logo-op.webp"
             loading="eager"
             width={158}
             height={48}
@@ -32,7 +32,7 @@ export default function Logo() {
           />
           <img
             alt="samsung"
-            src="/src/assets/logos/samsung-logo-op.png"
+            src="/logos/samsung-logo-op.png"
             loading="eager"
             width={158}
             height={48}
